@@ -5,7 +5,7 @@
     --cor-clara: #FFFFFF;
 }
 /* reset layout navegador*/
-body{
+*{
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
@@ -15,7 +15,28 @@ body{
     line-height: 1.6; 
     color: var(--cor-texto); 
 }
+/*conteudo-sobre */
 .cabecalho{
     background-color: var(--cor-primaria);
     color: var(--cor-clara);
+    padding: 1rem 0 ; /* 1rem equilave a 16px */
 }
+/* tamanho do gereção tech */
+.logo{
+    width: 150px;
+}
+/* sobre-conteudo lado sup-direito */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.cabecalho .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 1.5rem; /* gap tirar sobre */
+}
+
