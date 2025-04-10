@@ -38,5 +38,10 @@ justify-content: space-between;
 .menu{
     display: flex;
     gap: 1.5rem; /* gap tirar sobre */
+    list-style: none;
+}
+.menu a {
+    color: var(--cor-clara);
+    text-decoration: none;
 }
 
